@@ -1,0 +1,42 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+nav {
+    font-size: 1.5em;
+    background-color: rgb(147, 194, 232);
+    width: 80%;
+    margin: 0 auto;
+    font-size: 200%;
+    padding: .5%;
+}
+body nav:hover {
+    background-color: white;
+    color: steelblue;
+}
+h1 {
+    background-color: rgb(64, 64, 181);
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 300%;
+    padding: .5%;
+}
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding: 2%;
+}
+p {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(64, 64, 181);
+    color: white;
+    font-size: 200%;
+    padding: .5%;
+    text-align: center;
+}
+footer {
+    color: white;
+  }

@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(56, 54, 54);
+    color: white;
+    margin: auto 0;
+    text-align: center;
+}
+nav {
+    font-size: 200%;
+    color: white;
+    color-scheme: white;
+}
+nav a:visited {
+    color: white;
+}
+nav a:hover {
+    background-color: rgb(127, 204, 230);
+    color: black;
+}
+img { 
+    padding: 2em
+}
+p {
+    font-size: 150%;
+}

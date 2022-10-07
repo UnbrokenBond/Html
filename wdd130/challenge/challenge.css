@@ -1,0 +1,44 @@
+body {
+    background-color: #fca6c9;
+    width: 40%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+    font-size: 400%
+}
+h1:hover {
+    color: black;
+}
+h2 {
+    font-size: 130%
+}
+p {
+    font-size: 180%;
+}
+h3 {
+    color: black;
+    text-align: left;
+    font-style: bold;
+    font-size: 140%;
+}
+img {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    padding: 5%;
+}
+h4 {
+    display: block;
+    font-size: 250%;
+    width: 65%;
+    word-spacing: .2em;
+    line-height: 1.3em;
+    margin: 0 auto;
+}
+footer {
+    color: black;
+    padding: 5%;
+    font-size: 130%;
+}
