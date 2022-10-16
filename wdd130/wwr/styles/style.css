@@ -1,3 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Permanent+Marker&display=swap');
+
+:root {
+    --heading-font: "Permanent Marker", cursive, "Brush Script MT";
+    --paragraph-font: Overpass, Helvetica, sans-serif;
+}
+body {
+    background-color: #535E72;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+  }
+h1, .msg h2 {
+    font-size: 2em;
+}
+.book, .join {
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #0D3B91;
+    padding: 7px;
+}
+.book {
+    color: white;
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+}
+.join {
+    color: white;
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+}
+p {
+    font-family: var(--paragraph-font);
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.home-title {
+    margin-top: 10px;
+}
 div#content {
     max-width: 1600px;
     margin: 0 auto;
@@ -10,6 +58,8 @@ nav a {
     font-size: 200%;
     margin: 1em;
     text-decoration: none;
+    font-family: var(--paragraph-font);
+    padding: 20px;
 }
 nav a:hover {
     background-color: #535E72;
@@ -24,26 +74,26 @@ nav a:hover {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 750px;
 }
-body {
-    background-color: #535E72;
-}
+
 header {
     background-color: white;
 }
-.book {
-    color: black;
-    text-decoration: none;
-}
-.join {
-    color: white;
-    text-decoration: none;
-}
+
 .book:hover, .join:hover {
     background-color: #535E72;
     color: white;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #0D3B91;
 }
 #background {
     background-color: #668acd;
@@ -51,11 +101,19 @@ header {
 .msg {
     background-color: #668acd;
     color: white;
+    padding: 35px;
+}
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #0D3B91;
     color: white;
     font-size: 200%;
+    font-family: var(--paragraph-font);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p a {
     color: white;
@@ -67,11 +125,16 @@ footer p a:hover {
     color:#535E72;
     text-decoration: underline; 
 }
+footer .social img {
+    padding-top: 15px;
+}
 .logo {
-    width: 20%;
+    width: 80px;
+    padding: 30px;
 }
 .icon {
-    width: 10%;
+    width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
