@@ -29,3 +29,13 @@ img {
 p {
     font-size: 150%;
 }
+
+/* Media query - must always be the last thing in a CSS code - helps adjust webpage based on device being used */
+@media screen and (max-width: 900px) {
+    nav {
+        font-size: .5em;
+    } 
+    img {
+        width: 100%;
+    }
+}
