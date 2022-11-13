@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Permanent+Marker&display=swap');
+
+:root {
+    --heading-font: "Permanent Marker", cursive, "Brush Script MT";
+    --paragraph-font: Overpass, Helvetica, sans-serif;
+}
+
+/* Page Setup */
+body {
+    background-color: #ced3dc;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+div #content {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #8aabd4;
+}
+
+
+/* Links to book */
+.button-box {
+    text-align: center;
+}
+.book {
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #0D3B91;
+    padding: 7px;
+}
+.book {
+    color: white;
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+    font-size: 1.5em;
+    padding: .5em;
+    border: black solid .2em;
+    border-radius: 30%;
+}
+.book:hover {
+    background-color: #535E72;
+    color: white;
+}
+
+
+/* Header Section */
+header {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 150px auto;
+    z-index: 1;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.home-title {
+    margin-top: 10px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    color: #0D3B91;
+    font-size: 150%;
+    margin: 1em;
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+    padding: .5em;
+}
+nav a:hover {
+    background-color: #535E72;
+    color: white;
+}
+.logo {
+    width: 80px;
+    padding: 30px;
+}
+
+
+/* BANNER SECTION */
+#trip-page {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#trip-img-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+#trip-banner {
+    width: 100%;
+}
+#trip-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#trip-msg h1 {
+    text-align: center;
+    color: white;
+    font-size: 110px;
+    background-color: rgba(0, 0, 0, .5);
+}
+#trip-msg h4 {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+
+/* TRIP INFORMATION */
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.trip {
+    align-content: center;
+    justify-content: center;
+    margin: 3em auto;
+    box-sizing: border-box;
+    border: .5em solid black;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#trip1, #trip3 {
+    margin: 3em 3em 3em auto
+}
+#trip2, #trip4 {
+    margin: 3em auto 3em 3em;
+}
+#trip3, #trip4 {
+    grid-row: 2/3;
+}
+.card-img {
+    width: 100%;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    height: 100%;
+}
+.trip-name {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    z-index: 1;
+    color: white;
+    justify-self: center;
+    align-self: center;
+    font-size: 37px;
+    padding: 3em;
+}
+.trip-name h3 {
+    font-size: 100px;
+    font-family: var(--paragraph-font);
+}
+.trip-name h2, .trip-name h3 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+}
+.calendar {
+    justify-self: center;
+    font-size: 30px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.calendar h1 {
+    grid-row: 1/2;
+    grid-column: 1/4;
+    text-align: center;
+}
+.calendar h3 {
+    grid-row: 2/3;
+    margin: 1em 3em;
+    font-family: var(--paragraph-font);
+}
+.calendar h4 {
+    margin: 1em 3em;
+    grid-row: 3/4;
+    font-family: var(--paragraph-font);
+}
+.button-box {
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 4/5;
+    padding: 3em;
+}
+
+
+/* Footer */
+footer {
+    background-color: #0D3B91;
+    color: white;
+    font-size: 120%;
+    font-family: var(--paragraph-font);
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p a {
+    color: white;
+    display: inline;
+    text-decoration: none;
+}
+footer p a:hover {
+    background-color: white;
+    color:#535E72;
+    text-decoration: underline; 
+}
+footer .social img {
+    padding-top: 15px;
+}
