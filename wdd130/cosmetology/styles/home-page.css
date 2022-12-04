@@ -332,3 +332,29 @@ textarea {
 button {
     margin-left: .5em;
 }
+
+/* MEDIA QUERY - must always be the last thing in a CSS code - helps adjust webpage based on device being used */
+@media screen and (max-width: 1300px) and (min-width: 750px){
+    nav, footer {
+        flex-direction: column;
+    }
+    header {
+        align-items: center;
+        justify-items: center;
+    }
+    nav a {
+        display: block;
+        padding: .5em;
+        font-size: 1em;
+    }
+    .logo {
+        align-self: center;
+        justify-self: center;
+        width: 150px;
+    }
+    .social a img {
+        width: 150px;
+        align-self: center;
+        justify-content: center;
+    }
+}
